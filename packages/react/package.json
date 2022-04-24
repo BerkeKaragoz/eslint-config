@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-berkekaragoz-react",
   "version": "0.0.0",
-  "description": "ESLint configuration aimed to have balanced aspects.",
+  "description": "ESLint React configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

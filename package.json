@@ -2,7 +2,7 @@
   "name": "@berkekaragoz/eslint-config",
   "version": "0.0.0",
   "private": true,
-  "description": "ESLint configuration aimed to have balanced aspects.",
+  "description": "Monorepo of eslint-config-berkekaragoz.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "git-cz"
