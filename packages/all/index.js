@@ -1,3 +1,7 @@
 module.exports = {
-  extends: ["berkekaragoz-formatting, berkekaragoz-react"],
+  extends: [
+    "berkekaragoz-suggestions",
+    "berkekaragoz-formatting",
+    "berkekaragoz-react",
+  ],
 };
