@@ -4,7 +4,8 @@
   "private": true,
   "description": "ESLint configuration aimed to have balanced aspects.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "commit": "git-cz"
   },
   "main": "index.js",
   "repository": {
@@ -21,7 +22,16 @@
     "url": "https://github.com/BerkeKaragoz/eslint-config-berkekaragoz/issues"
   },
   "homepage": "https://github.com/BerkeKaragoz/eslint-config-berkekaragoz#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
+    "git-cz": "^4.8.0"
+  },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
