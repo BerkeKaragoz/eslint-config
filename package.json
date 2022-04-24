@@ -1,0 +1,27 @@
+{
+  "name": "@berkekaragoz/eslint-config",
+  "version": "0.0.0",
+  "private": true,
+  "description": "ESLint configuration aimed to have balanced aspects.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BerkeKaragoz/eslint-config-berkekaragoz.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "E. Berke Karagöz <mail@berkekaragoz.com> (https://github.com/BerkeKaragoz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BerkeKaragoz/eslint-config-berkekaragoz/issues"
+  },
+  "homepage": "https://github.com/BerkeKaragoz/eslint-config-berkekaragoz#readme",
+  "workspaces": [
+    "packages/*"
+  ]
+}
