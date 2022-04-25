@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-berkekaragoz",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "ESLint configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,11 +23,13 @@
     "url": "https://github.com/BerkeKaragoz/eslint-config/issues"
   },
   "homepage": "https://github.com/BerkeKaragoz/eslint-config#readme",
-  "devDependencies": {
-    "eslint": "^8.14.0",
+  "dependencies": {
     "eslint-config-berkekaragoz-formatting": "*",
     "eslint-config-berkekaragoz-react": "*",
     "eslint-config-berkekaragoz-suggestions": "*"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
   },
   "peerDependencies": {
     "eslint": ">= 3"
