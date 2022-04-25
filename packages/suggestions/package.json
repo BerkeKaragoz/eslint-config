@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BerkeKaragoz/eslint-config-berkekaragoz.git"
+    "url": "git+https://github.com/BerkeKaragoz/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -20,9 +20,9 @@
   "author": "E. Berke Karagöz <mail@berkekaragoz.com> (https://github.com/BerkeKaragoz)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BerkeKaragoz/eslint-config-berkekaragoz/issues"
+    "url": "https://github.com/BerkeKaragoz/eslint-config/issues"
   },
-  "homepage": "https://github.com/BerkeKaragoz/eslint-config-berkekaragoz#readme",
+  "homepage": "https://github.com/BerkeKaragoz/eslint-config#readme",
   "devDependencies": {
     "eslint": "^8.14.0"
   },

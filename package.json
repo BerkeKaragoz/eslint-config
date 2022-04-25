@@ -24,6 +24,7 @@
   "homepage": "https://github.com/BerkeKaragoz/eslint-config-berkekaragoz#readme",
   "devDependencies": {
     "cz-conventional-changelog": "3.3.0",
+    "eslint-config-berkekaragoz": "*",
     "git-cz": "^4.8.0"
   },
   "workspaces": [
