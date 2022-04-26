@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-berkekaragoz-react",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "ESLint React configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -27,10 +27,7 @@
     "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.4.0"
   },
-  "devDependencies": {
-    "eslint": "^8.14.0"
-  },
   "peerDependencies": {
-    "eslint": ">= 3"
+    "eslint": ">= 7"
   }
 }
