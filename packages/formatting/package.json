@@ -25,5 +25,8 @@
   "homepage": "https://github.com/BerkeKaragoz/eslint-config#readme",
   "peerDependencies": {
     "eslint": ">= 7"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0"
   }
 }
