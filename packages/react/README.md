@@ -2,6 +2,7 @@ Install:
 
 - NPM: `npm i -D eslint-config-berkekaragoz-react`
 - Yarn: `yarn add -D eslint-config-berkekaragoz-react`
+- PNPM: `pnpm i -D eslint-config-berkekaragoz-react`
 
 # eslint-config-berkekaragoz-react
 

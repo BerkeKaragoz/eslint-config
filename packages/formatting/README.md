@@ -2,6 +2,7 @@ Install:
 
 - NPM: `npm i -D eslint-config-berkekaragoz-formatting`
 - Yarn: `yarn add -D eslint-config-berkekaragoz-formatting`
+- PNPM: `pnpm i -D eslint-config-berkekaragoz-formatting`
 
 # eslint-config-berkekaragoz-formatting
 

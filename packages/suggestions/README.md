@@ -2,6 +2,7 @@ Install:
 
 - NPM: `npm i -D eslint-config-berkekaragoz-suggestions`
 - Yarn: `yarn add -D eslint-config-berkekaragoz-suggestions`
+- PNPM: `pnpm i -D eslint-config-berkekaragoz-suggestions`
 
 # eslint-config-berkekaragoz-suggestions
 
