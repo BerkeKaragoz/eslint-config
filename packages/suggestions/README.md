@@ -10,7 +10,24 @@ ESLint suggestions configuration aimed to have balanced aspects. A part of [esli
 
 _Wait for version 1._
 
-Contents:
+## Usage
+
+```yaml
+extends:
+  - berkekaragoz-suggestions
+```
+
+### VSCode Settings
+
+```json
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
+```
+
+## Contents:
 
 ```js
 {

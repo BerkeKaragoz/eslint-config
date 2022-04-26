@@ -10,7 +10,26 @@ ESLint React configuration aimed to have balanced aspects. A part of [eslint-con
 
 _Wait for version 1._
 
-Contents:
+## Usage
+
+```yaml
+extends:
+  - berkekaragoz-react
+```
+
+### VSCode Settings
+
+```json
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "indentRainbow.ignoreErrorLanguages": ["*"],
+  "indentRainbow.colorOnWhiteSpaceOnly": true
+}
+```
+
+## Contents:
 
 ```js
 {

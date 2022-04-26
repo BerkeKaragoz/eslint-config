@@ -10,7 +10,29 @@ ESLint formatting configuration aimed to have balanced aspects. A part of [eslin
 
 _Wait for version 1._
 
-Contents:
+## Usage
+
+```yaml
+extends:
+  - berkekaragoz-formatting
+```
+
+### VSCode Settings
+
+```json
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "indentRainbow.ignoreErrorLanguages": ["*"],
+  "indentRainbow.colorOnWhiteSpaceOnly": true
+}
+```
+
+## Contents:
 
 ```js
 {

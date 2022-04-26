@@ -10,7 +10,29 @@ ESLint configuration aimed to have balanced aspects.
 
 _Wait for version 1._
 
-Contents:
+## Usage
+
+```yaml
+extends:
+  - berkekaragoz
+```
+
+### VSCode Settings
+
+```json
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.format.enable": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "indentRainbow.ignoreErrorLanguages": ["*"],
+  "indentRainbow.colorOnWhiteSpaceOnly": true
+}
+```
+
+## Contents:
 
 ```js
 {
@@ -23,7 +45,7 @@ Contents:
 };
 ```
 
-Related:
+### Related
 
 - [eslint:recommended](https://github.com/eslint/eslint/blob/main/conf/eslint-recommended.js)
 - [eslint-config-berkekaragoz-suggestions](https://www.npmjs.com/package/eslint-config-berkekaragoz-suggestions)
