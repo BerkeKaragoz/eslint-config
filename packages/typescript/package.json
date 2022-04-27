@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-berkekaragoz-typescript",
+  "version": "0.0.0",
+  "description": "ESLint typescript configuration aimed to have balanced aspects.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BerkeKaragoz/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "E. Berke Karagöz <mail@berkekaragoz.com> (https://github.com/BerkeKaragoz)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BerkeKaragoz/eslint-config/issues"
+  },
+  "homepage": "https://github.com/BerkeKaragoz/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 7",
+    "typescript": ">= 2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.21.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "typescript": ">= 2"
+  }
+}
