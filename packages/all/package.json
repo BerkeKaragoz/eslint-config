@@ -1,13 +1,15 @@
 {
   "name": "eslint-config-berkekaragoz",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "ESLint configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "react.js",
+    "react-typescript.js"
   ],
   "repository": {
     "type": "git",
@@ -26,12 +28,15 @@
   "dependencies": {
     "eslint-config-berkekaragoz-formatting": "workspace:*",
     "eslint-config-berkekaragoz-react": "workspace:*",
-    "eslint-config-berkekaragoz-suggestions": "workspace:*"
+    "eslint-config-berkekaragoz-suggestions": "workspace:*",
+    "eslint-config-berkekaragoz-typescript": "workspace:*"
   },
   "peerDependencies": {
     "eslint": ">= 7"
   },
   "devDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": "^8.14.0",
+    "typescript": ">= 2",
+    "react": ">= 14"
   }
 }

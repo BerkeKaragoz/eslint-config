@@ -1,4 +1,4 @@
-Install:
+### Install:
 
 - NPM: `npm i -D eslint-config-berkekaragoz`
 - Yarn: `yarn add -D eslint-config-berkekaragoz`
@@ -12,9 +12,25 @@ _Wait for version 1._
 
 ## Usage
 
+For all:
+
 ```yaml
 extends:
   - berkekaragoz
+```
+
+For React and Typescript:
+
+```yaml
+extends:
+  - berkekaragoz/react-typescript
+```
+
+For React only:
+
+```yaml
+extends:
+  - berkekaragoz/react
 ```
 
 ### VSCode Settings
@@ -34,14 +50,26 @@ extends:
 
 ## Contents:
 
+ESLint configs:
+
+- `berkekaragoz`
+- `berkekaragoz/react`
+- `berkekaragoz/react-typescript`
+
+All (`berkekaragoz`):
+
 ```js
 {
   extends: [
     "eslint:recommended",
+    "berkekaragoz-react",
+    "berkekaragoz-typescript",
     "berkekaragoz-suggestions",
     "berkekaragoz-formatting",
-    "berkekaragoz-react",
   ],
+  rules: {
+    "no-constant-condition": "warn",
+  },
 };
 ```
 

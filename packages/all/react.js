@@ -2,7 +2,6 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "berkekaragoz-react",
-    "berkekaragoz-typescript",
     "berkekaragoz-suggestions",
     "berkekaragoz-formatting",
   ],
