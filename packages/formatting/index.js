@@ -28,7 +28,7 @@ module.exports = {
     "multiline-ternary": ["warn", "always-multiline"],
     "new-parens": "warn",
     "newline-per-chained-call": ["warn", { ignoreChainWithDepth: 3 }],
-    "no-extra-parens": "warn",
+    "no-extra-parens": ["warn", "all", { ignoreJSX: "multi-line" }],
     "no-multi-spaces": [
       "warn",
       { ignoreEOLComments: true, exceptions: { Property: true } },
