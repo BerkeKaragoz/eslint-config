@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-berkekaragoz",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "ESLint configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -23,7 +23,7 @@
     "eslintconfig"
   ],
   "author": "E. Berke Karagöz <mail@berkekaragoz.com> (https://github.com/BerkeKaragoz)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/BerkeKaragoz/eslint-config/issues"
   },

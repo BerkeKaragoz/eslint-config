@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-berkekaragoz-react",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "ESLint React configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,7 +18,7 @@
     "eslintconfig"
   ],
   "author": "E. Berke Karagöz <mail@berkekaragoz.com> (https://github.com/BerkeKaragoz)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/BerkeKaragoz/eslint-config/issues"
   },
