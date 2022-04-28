@@ -6,7 +6,7 @@
 
 # eslint-config-berkekaragoz
 
-ESLint configuration aimed to have balanced aspects.
+ESLint configuration aimed to have balanced aspects. Would love to hear [your feedback](https://github.com/BerkeKaragoz/eslint-config/issues/new?assignees=&labels=feedback&template=feedback.md&title=).
 
 _Wait for version 1._
 
@@ -26,7 +26,7 @@ extends:
   - berkekaragoz/react-typescript
 ```
 
-For React only:
+For React and JavaScript:
 
 ```yaml
 extends:
@@ -34,6 +34,8 @@ extends:
 ```
 
 ### VSCode Settings
+
+If you are facing with conficts, you should add these to `/.vscode/settings.json`.
 
 ```json
 {
@@ -53,6 +55,9 @@ extends:
 ESLint configs:
 
 - `berkekaragoz`
+- `berkekaragoz/formatting`
+- `berkekaragoz/suggestions`
+- `berkekaragoz/typescript`
 - `berkekaragoz/react`
 - `berkekaragoz/react-typescript`
 

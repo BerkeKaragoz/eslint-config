@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-berkekaragoz",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "ESLint configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,6 +8,9 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "formatting.js",
+    "suggestions.js",
+    "typescript.js",
     "react.js",
     "react-typescript.js"
   ],
