@@ -17,7 +17,7 @@
     "eslintconfig"
   ],
   "author": "E. Berke Karagöz <mail@berkekaragoz.com> (https://github.com/BerkeKaragoz)",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/BerkeKaragoz/eslint-config-berkekaragoz/issues"
   },
@@ -28,10 +28,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
-  }
+  ]
 }
