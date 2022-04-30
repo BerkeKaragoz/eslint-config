@@ -4,6 +4,7 @@ module.exports = {
     "berkekaragoz-react",
     "berkekaragoz-typescript",
     "berkekaragoz-suggestions",
+    "berkekaragoz-react/formatting",
     "berkekaragoz-formatting",
   ],
   rules: {

@@ -4,7 +4,6 @@ module.exports = {
     "berkekaragoz-react",
     "berkekaragoz-typescript",
     "berkekaragoz-suggestions",
-    "berkekaragoz-formatting",
   ],
   rules: {
     "no-constant-condition": "warn",
