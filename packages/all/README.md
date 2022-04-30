@@ -44,7 +44,6 @@ If you are facing with conficts, you should add these to `/.vscode/settings.json
   },
   "eslint.format.enable": true,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "indentRainbow.ignoreErrorLanguages": ["*"],
   "indentRainbow.colorOnWhiteSpaceOnly": true
 }
@@ -70,6 +69,7 @@ All (`berkekaragoz`):
     "berkekaragoz-react",
     "berkekaragoz-typescript",
     "berkekaragoz-suggestions",
+    "berkekaragoz-react/formatting",
     "berkekaragoz-formatting",
   ],
   rules: {
