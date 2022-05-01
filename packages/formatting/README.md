@@ -12,10 +12,16 @@ _Wait for version 1._
 
 ## Usage
 
-```yaml
+eslint:
+
+````yaml
 extends:
   - berkekaragoz-formatting
-```
+
+`package.json`:
+```json
+  "prettier": "eslint-config-berkekaragoz-formatting/prettier"
+````
 
 ### VSCode Settings
 
@@ -26,13 +32,15 @@ extends:
   },
   "eslint.format.enable": true,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "indentRainbow.ignoreErrorLanguages": ["*"],
   "indentRainbow.colorOnWhiteSpaceOnly": true
 }
 ```
 
 ## Contents:
+
+- `berkekaragoz-formatting`: eslint rules.
+- `eslint-config-berkekaragoz-formatting/prettier.json`: prettier config.
 
 ```js
 {

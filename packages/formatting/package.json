@@ -1,13 +1,14 @@
 {
   "name": "eslint-config-berkekaragoz-formatting",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "ESLint formatting configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "prettier.json"
   ],
   "repository": {
     "type": "git",
