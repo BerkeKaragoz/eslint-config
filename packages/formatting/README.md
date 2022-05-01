@@ -21,7 +21,7 @@ extends:
 `package.json`:
 ```json
   "prettier": "eslint-config-berkekaragoz-formatting/prettier"
-````
+```
 
 ### VSCode Settings
 
@@ -130,3 +130,4 @@ Related:
 - [eslint-config-berkekaragoz](https://www.npmjs.com/package/eslint-config-berkekaragoz)
 - [eslint-config-berkekaragoz-suggestions](https://www.npmjs.com/package/eslint-config-berkekaragoz-suggestions)
 - [eslint-config-berkekaragoz-react](https://www.npmjs.com/package/eslint-config-berkekaragoz-react)
+````
