@@ -33,6 +33,12 @@ extends:
   - berkekaragoz/react
 ```
 
+Prettier config, `package.json`:
+
+```json
+  "prettier": "eslint-config-berkekaragoz-formatting/prettier"
+```
+
 ### VSCode Settings
 
 If you are facing with conficts, you should add these to `/.vscode/settings.json`.
