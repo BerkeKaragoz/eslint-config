@@ -42,10 +42,7 @@ module.exports = {
     "react/no-multi-comp": ["warn", { ignoreStateless: true }],
     "react/self-closing-comp": "warn",
     "react/void-dom-elements-no-children": "error",
-    "react/jsx-filename-extension": [
-      "warn",
-      { allow: "as-needed", extensions: [".tsx", ".jsx"] },
-    ],
+    "react/jsx-filename-extension": ["warn", { extensions: [".tsx", ".jsx"] }],
     "react/jsx-sort-props": [
       "warn",
       {
