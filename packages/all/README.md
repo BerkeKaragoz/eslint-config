@@ -8,8 +8,6 @@
 
 ESLint configuration aimed to have balanced aspects. Would love to hear [your feedback](https://github.com/BerkeKaragoz/eslint-config/issues/new?assignees=&labels=feedback&template=feedback.md&title=).
 
-_Wait for version 1._
-
 ## Usage
 
 For all:

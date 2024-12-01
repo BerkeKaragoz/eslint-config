@@ -1,3 +1,1 @@
-module.exports = {
-  extends: ["berkekaragoz-typescript"],
-};
+module.exports = require("eslint-config-berkekaragoz-typescript");

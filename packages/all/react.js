@@ -1,10 +1,10 @@
-module.exports = {
-  extends: [
-    "eslint:recommended",
-    "berkekaragoz-react",
-    "berkekaragoz-suggestions",
-  ],
-  rules: {
-    "no-constant-condition": "warn",
+module.exports = [
+  require("@eslint/js").configs.recommended,
+  require("eslint-config-berkekaragoz-react"),
+  require("eslint-config-berkekaragoz-suggestions"),
+  {
+    rules: {
+      "no-constant-condition": "warn",
+    },
   },
-};
+];

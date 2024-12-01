@@ -1,13 +1,13 @@
-module.exports = {
-  extends: [
-    "eslint:recommended",
-    "berkekaragoz-react",
-    "berkekaragoz-typescript",
-    "berkekaragoz-suggestions",
-    "berkekaragoz-react/formatting",
-    "berkekaragoz-formatting",
-  ],
-  rules: {
-    "no-constant-condition": "warn",
+module.exports = [
+  require("@eslint/js").configs.recommended,
+  require("eslint-config-berkekaragoz-react"),
+  require("eslint-config-berkekaragoz-typescript"),
+  require("eslint-config-berkekaragoz-suggestions"),
+  require("eslint-config-berkekaragoz-react/formatting"),
+  require("eslint-config-berkekaragoz-formatting"),
+  {
+    rules: {
+      "no-constant-condition": "warn",
+    },
   },
-};
+];

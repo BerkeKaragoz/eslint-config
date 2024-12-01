@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-berkekaragoz-formatting",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "description": "ESLint formatting configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,9 +25,9 @@
   },
   "homepage": "https://github.com/BerkeKaragoz/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">= 7"
+    "eslint": ">= 9"
   },
   "devDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": "^9.16.0"
   }
 }

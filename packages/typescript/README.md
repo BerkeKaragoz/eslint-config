@@ -8,8 +8,6 @@
 
 ESLint suggestions configuration aimed to have balanced aspects. A part of [eslint-config-berkekaragoz](https://www.npmjs.com/package/eslint-config-berkekaragoz).
 
-_Wait for version 1._
-
 ## Usage
 
 ```yaml

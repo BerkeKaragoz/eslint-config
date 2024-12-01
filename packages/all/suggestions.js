@@ -1,3 +1,1 @@
-module.exports = {
-  extends: ["berkekaragoz-suggestions"],
-};
+module.exports = require("eslint-config-berkekaragoz-suggestions");

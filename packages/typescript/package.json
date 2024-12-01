@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-berkekaragoz-typescript",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "ESLint typescript configuration aimed to have balanced aspects.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -24,15 +24,15 @@
   },
   "homepage": "https://github.com/BerkeKaragoz/eslint-config#readme",
   "peerDependencies": {
-    "eslint": ">= 7",
-    "typescript": ">= 2"
+    "eslint": ">= 9",
+    "typescript": ">= 4"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.21.0",
-    "@typescript-eslint/parser": "^5.21.0"
+    "@typescript-eslint/eslint-plugin": "^8.16.0",
+    "@typescript-eslint/parser": "^8.16.0"
   },
   "devDependencies": {
-    "eslint": "^8.14.0",
-    "typescript": ">= 2"
+    "eslint": "^9.16.0",
+    "typescript": ">= 4"
   }
 }

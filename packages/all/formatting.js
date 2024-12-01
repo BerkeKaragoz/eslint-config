@@ -1,3 +1,1 @@
-module.exports = {
-  extends: ["berkekaragoz-formatting"],
-};
+module.exports = require("eslint-config-berkekaragoz-formatting");
