@@ -1,21 +1,14 @@
 const react = require("eslint-plugin-react");
-const reactRecommended = require("eslint-plugin-react/recommended");
-const reactJsxRuntime = require("eslint-plugin-react/jsx-runtime");
-const reactHooksRecommended = require("eslint-plugin-react-hooks/recommended");
+const reactHooks = require("eslint-plugin-react-hooks");
 
 module.exports = [
-  reactRecommended,
-  reactJsxRuntime,
-  reactHooksRecommended,
+  react.configs.flat.recommended,
+  react.configs.flat["jsx-runtime"],
   {
-    parserOptions: {
-      ecmaFeatures: { jsx: true },
-      ecmaVersion: "latest",
-      sourceType: "module",
-    },
     settings: { react: { version: "detect" } },
-    plugins: { react: react },
+    plugins: { react: react, "react-hooks": reactHooks },
     rules: {
+      ...reactHooks.configs.recommended.rules,
       "react/boolean-prop-naming": [
         "warn",
         {

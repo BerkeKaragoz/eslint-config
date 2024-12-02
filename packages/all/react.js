@@ -1,6 +1,6 @@
 module.exports = [
   require("@eslint/js").configs.recommended,
-  require("eslint-config-berkekaragoz-react"),
+  ...require("eslint-config-berkekaragoz-react"),
   require("eslint-config-berkekaragoz-suggestions"),
   {
     rules: {
