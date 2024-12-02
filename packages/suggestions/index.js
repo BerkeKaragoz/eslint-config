@@ -22,5 +22,6 @@ module.exports = {
       { line: { exceptions: ["/"] }, block: { exceptions: ["*"] } },
     ],
     yoda: "warn",
+    "no-empty-pattern": "off",
   },
 };
